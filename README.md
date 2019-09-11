@@ -6,7 +6,7 @@ There's a seed generator <pre>genlife.sh</pre> and the actual game renderer <pre
 <pre>
 ## genlife.sh -- Jun 25 2010, by Patsie
 # generates random data for a first generation of Life
-# usage: genlife.sh [&lt;width;&gt; [&lt;height&gt; [&lt;fill percentage&gt;] ] ]
+# usage: genlife.sh [&lt;width&gt; [&lt;height&gt; [&lt;fill percentage&gt;] ] ]
 # defaults to a grid of 15x10 with 25% filling
 </pre>
 <p>
