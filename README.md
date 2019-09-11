@@ -1,4 +1,4 @@
-I made this a few years ago already while begin bored.<br>
+I made this a few years ago already while being bored.<br>
 It's Conways Game of Life, written in awk.<br>
 <p>
 There's a seed generator <pre>genlife.sh</pre> and the actual game renderer <pre>life.sh</pre>
@@ -6,7 +6,7 @@ There's a seed generator <pre>genlife.sh</pre> and the actual game renderer <pre
 <pre>
 ## genlife.sh -- Jun 25 2010, by Patsie
 # generates random data for a first generation of Life
-# usage: genlife.sh [&lt;width;&gt; [&lt;height$gt; [&lt;fill percentage&gt;] ] ]
+# usage: genlife.sh [&lt;width;&gt; [&lt;height&gt; [&lt;fill percentage&gt;] ] ]
 # defaults to a grid of 15x10 with 25% filling
 </pre>
 <p>
@@ -28,7 +28,7 @@ You can also specify these as arguments. To run for 100 frames with a 0.1 second
 ./life 100 0.1
 </pre>
 <p>
-No let's combine the two to get something which actually produces some output:<br>
+Now lets combine the two to get something which actually produces some output:<br>
 <pre>
 ./genlife.sh | ./life.sh
 </pre>
